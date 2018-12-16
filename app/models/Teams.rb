@@ -3,9 +3,9 @@ class Team
   @@all = []
 
   def initialize(args)
-    @name = params[:name]
-    @motto = params[:motto]
-    @heroes = params[:hero]
+    @name = args[:name]
+    @motto = args[:motto]
+    @heroes = args[:hero]
     @@all << self
   end
 
